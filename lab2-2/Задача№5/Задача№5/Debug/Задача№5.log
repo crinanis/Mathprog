@@ -1,0 +1,39 @@
+﻿Сборка начата 24.03.2022 20:30:22.
+Уровень детализации журнала: Normal.     1>Проект "e:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Задача№5\Задача№5.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "E:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Debug\".
+         Создание каталога "Debug\Задача№5.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\Задача№5.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         E:\SOFT\Visual Studio\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Задача№5.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\SOFT\Visual Studio\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Задача№5.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Auxil.cpp Combi.cpp Knapsack.cpp "Задача№5.cpp"
+         Auxil.cpp
+         Combi.cpp
+     1>e:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Задача№5\Combi.cpp(41,42): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
+         Knapsack.cpp
+         Задача№5.cpp
+         Создание кода...
+       Link:
+         E:\SOFT\Visual Studio\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Debug\Задача№5.exe" /INCREMENTAL /ILK:"Debug\Задача№5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Debug\Задача№5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Debug\Задача№5.lib" /MACHINE:X86 Debug\Auxil.obj
+         Debug\Combi.obj
+         Debug\Knapsack.obj
+         Debug\stdafx.obj
+         "Debug\Задача№5.obj"
+         Задача№5.vcxproj -> E:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Debug\Задача№5.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Задача№5.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Задача№5.tlog\Задача№5.lastbuildstate".
+     1>Сборка проекта "e:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Задача№5\Задача№5.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "e:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Задача№5\Задача№5.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         e:\1POIT\2\MatProga\labs\lab2\lab2\Задача№5\Задача№5\Combi.cpp(41,42): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:02.70
